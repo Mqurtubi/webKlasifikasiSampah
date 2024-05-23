@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  background-color: #1e1e1e;
+  color: white;
+}
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#navbar #logo {
+  margin-left: 30px;
+}
+#navbar #link {
+  margin-right: 50px;
+}
+#navbar #link a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#navbar #logo img {
+  width: 75px;
+}
+#navbar #logo {
+  display: flex;
+  align-items: center;
+}
+#navbar {
+  letter-spacing: 3px;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-block: 0 100px;
+  line-height: 25px;
+  margin-top: 25px;
+}
+
+#deskripsi h2 {
+  padding: 10px;
+  font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 3px;
+}
+
+#file {
+  display: flex;
+  flex-direction: column;
+  border: 1px #ffc849 dashed;
+  margin: 0 auto 30px auto;
+  border-radius: 25px;
+  width: 500px;
+  height: 400px;
+  position: relative;
+}
+#file input {
+  opacity: 0;
+}
+#file #labelFile {
+  position: relative;
+  top: -80px;
+  width: 400px;
+  left: 46px;
+  font-size: 30px;
+}
+#file #logoFile {
+  position: relative;
+  top: 80px;
+}
+#containerFile {
+  align-self: center;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+#imagePreview {
+  position: relative;
+}
+
+#buttonKlasifikasi {
+  background-color: #ad9866;
+  color: black;
+  padding: 15px;
+  width: 500px;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#buttonExit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  color: red;
+  background: none;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+#imageUpload {
+  margin: auto;
+  width: 50%;
+}
+
+#containerHasil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#containerHasil button {
+  margin-right: 0;
+  padding: 10px 30px 20px 30px;
+  border-bottom: none;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+#hasil {
+  border: 6px solid #ffc849;
+  border-radius: 0 10px 10px 10px;
+  width: 600px;
+}
+
+#hasil hr {
+  border: 2px solid #ffc849;
+}
+
+#hasil table tr th {
+  font-size: 20px;
+  border-radius: 1px solid white;
+  text-align: justify;
+  padding: 15px 20px;
+}
+
+#hasil p {
+  padding: 31.5px;
+}
+#hasil ul {
+  padding-inline: 35px;
+}
+#hasil ul li {
+  text-align: justify;
+  padding-bottom: 20px;
+}
+#hasil h2 {
+  padding: 30px;
+}
+
+#hasil span {
+  padding-left: 30px;
+}
+
+#headHasil {
+  align-self: start;
+  display: flex;
+
+  flex-direction: row;
+}
+
+#headHasil #hasilKlasifikasi,
+#headHasil #penagulangan {
+  font-size: 20px;
+  margin-right: 2px;
+  color: black;
+  font-weight: bolder;
+  background-color: #ffc849;
+  border: 6px solid #ffc849;
+  border-radius: 33px 33px 0 0;
+}
+
+#progresBar {
+  position: relative;
+}
+#progresBar2 {
+  position: relative;
+}
+.fa-xmark {
+  background-color: transparent;
+  width: 50px;
+  color: black;
+}
+footer {
+  background-color: #ffc107;
+  text-align: center;
+  border-radius: 20px;
+  padding: 45px 0;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+footer .credit {
+  font-size: 1rem;
+  color: #000;
+}
+footer .credit p {
+  background-color: #ffc107;
+  color: #000;
+  font-size: 20px;
+}
+footer .credit a {
+  color: #000;
+  font-weight: 700px;
+  text-decoration: none;
+  background-color: #ffc107;
+}
+
+footer .credit a:hover {
+  color: #000;
+}
