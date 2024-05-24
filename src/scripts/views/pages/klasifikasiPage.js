@@ -31,7 +31,7 @@ const Klasifikasi = {
     const buttonKlasifikasi = document.getElementById("buttonKlasifikasi");
     const containerHasil = document.getElementById("containerHasil");
     const file = document.getElementById("file");
-    buttonKlasifikasi.addEventListener("click", async () => {
+    buttonKlasifikasi.addEventListener("click", () => {
       if (uploadedImage) {
         buttonKlasifikasi.classList.add("button-loading");
         buttonKlasifikasi.textContent = "Loading ...";
