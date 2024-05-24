@@ -17,6 +17,7 @@
     "@tensorflow/tfjs": "^4.19.0",
     "ldloader": "^3.0.3",
     "loaders.css": "^0.1.2",
+    "motion": "^10.17.0",
     "progressbar.js": "^1.1.1",
     "regenerator-runtime": "^0.14.1",
     "respinner": "^4.0.1"

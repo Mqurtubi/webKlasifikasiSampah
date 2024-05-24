@@ -11,7 +11,6 @@
 body,
 html {
   height: 100%;
-  overflow: hidden;
 }
 
 #navbar {
@@ -43,11 +42,49 @@ html {
   display: flex;
   align-items: center;
 }
+#navbar #logo a {
+  text-decoration: none;
+}
 #navbar {
   letter-spacing: 3px;
   font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+#hamburgerMenu {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  display: none;
+  z-index: 99;
+}
+#btnHamburger {
+  border: none;
+  margin-left: 150px;
+  outline: none;
+  box-shadow: none;
+}
+#btnHamburger i {
+  font-size: 25px;
+  padding: 5px;
+  color: white;
+}
+#link2 {
+  border-radius: 5px;
+  border: 1px solid white;
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  z-index: 99;
+}
+#link2 ul {
+  list-style: none;
+}
+#link2 a {
+  display: block;
+  padding: 10px 0;
+  margin: 20px;
 }
 
 #main {
@@ -56,11 +93,66 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-block: 0 100px;
+  padding-block: 0 30px;
   line-height: 25px;
-  margin-top: 25px;
+  margin-block: 25px 20px;
 }
-
+#main #containerHome {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+#main #containerHome #kuning {
+  position: absolute;
+  top: 20px;
+  left: 130px;
+  background-color: transparent;
+}
+#main #containerHome #biru {
+  position: absolute;
+  top: 60px;
+  left: 255px;
+  background-color: transparent;
+}
+#main #containerHome .intro h1 {
+  position: absolute;
+  background-color: transparent;
+  top: 135px;
+  font-size: 40px;
+}
+#main #containerHome .intro {
+  text-align: justify;
+  width: 500px;
+  margin-right: 120px;
+  padding-top: 70px;
+  line-height: 30px;
+}
+#main #containerHome #btnMulai a {
+  padding: 15px 40px;
+  background-color: #ffc107;
+  text-decoration: none;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 25px;
+  color: #000;
+}
+#main #containerHome #btnMulai {
+  padding: 15px 25px;
+  border-radius: 17px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background-color: #ffc107;
+}
+#main #containerHome .intro p {
+  padding-block: 35px 25px;
+  font-size: 22px;
+}
+#main #containerHome .bckGroundHome img {
+  width: 895px;
+}
 #deskripsi h2 {
   padding: 10px;
   font-size: 50px;
@@ -171,6 +263,7 @@ html {
 
 #hasil p {
   padding: 31.5px;
+  text-align: justify;
 }
 #hasil ul {
   padding-inline: 35px;
@@ -190,7 +283,6 @@ html {
 #headHasil {
   align-self: start;
   display: flex;
-
   flex-direction: row;
 }
 
@@ -220,28 +312,51 @@ footer {
   background-color: #ffc107;
   text-align: center;
   border-radius: 20px;
-  padding: 45px 0;
+  padding: 25px 0;
   width: 100%;
-  height: 100%;
   flex-shrink: 0;
+  margin-top: 90px;
 }
 
-footer .credit {
-  font-size: 1rem;
-  color: #000;
-}
-footer .credit p {
+footer p {
   background-color: #ffc107;
   color: #000;
   font-size: 20px;
 }
-footer .credit a {
+footer a {
   color: #000;
   font-weight: 700px;
   text-decoration: none;
   background-color: #ffc107;
 }
 
-footer .credit a:hover {
+footer a:hover {
   color: #000;
+}
+.button-loading {
+  position: relative;
+}
+
+.button-loading::after {
+  content: "";
+  position: absolute;
+  top: 46%;
+  left: 30%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border: 2px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 2px solid black;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
