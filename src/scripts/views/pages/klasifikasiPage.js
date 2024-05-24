@@ -40,7 +40,7 @@ const Klasifikasi = {
           console.log(containerHasil.hasChildNodes());
           buttonKlasifikasi.textContent = "Klasifikasi";
           buttonKlasifikasi.classList.remove("button-loading");
-        }, 2000);
+        }, 1000);
       } else {
         console.error("No image uploaded.");
       }
@@ -201,7 +201,9 @@ const Klasifikasi = {
       } else if (
         setResults(results).className === "Baterai" ||
         setResults(results).className === "Sampah" ||
-        setResults(results).className === "Kaca Coklat"
+        setResults(results).className === "Kaca Coklat" ||
+        setResults(results).className === "Kaca Hijau" ||
+        setResults(results).className === "Kaca Putih"
       ) {
         kategori = "Sampah Berbahaya";
         penjelasan =

@@ -1,7 +1,9 @@
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1400px) {
+
   #navbar {
     padding: 0 10px;
   }
+
   #main {
     padding-block: 0 10px;
   }
@@ -9,58 +11,75 @@
   #deskripsi h2 {
     font-size: 30px;
   }
+
   #container {
     margin-block: 0;
   }
+
   #file {
     width: 400px;
     height: 300px;
   }
+
   #file #labelFile {
     top: -50px;
     left: 0;
     font-size: 24px;
   }
+
   #file #logoFile {
     top: 50px;
   }
+
   #containerFile {
     margin-bottom: 35px;
   }
+
   #main #containerHome {
     margin-bottom: 46px;
   }
+
   #main #containerHome .intro {
     width: 400px;
     margin-right: 100px;
   }
+
   #main #containerHome #kuning {
     top: -30px;
   }
+
   #main #containerHome #biru {
     top: 5px;
   }
+
   #main #containerHome .intro h1 {
     top: 80px;
   }
+
   #main #containerHome .bckGroundHome img {
     width: 725px;
   }
+
   #main #containerHome .intro p {
     font-size: 18px;
   }
+
   #buttonKlasifikasi {
     width: 400px;
   }
+
   #file #logoFile img {
     width: 200px;
   }
+
   footer {
     padding: 25px 0;
     margin-top: 0;
   }
 }
+
 @media only screen and (max-width: 600px) {
+
   body,
   html {
     height: 0;
@@ -70,112 +89,142 @@
   body {
     background-color: blue;
   }
+
   #navbar #logo {
     margin-left: 10px;
   }
+
   #navbar #logo h1 {
     font-size: 18px;
   }
+
   #navbar #link {
     display: none;
   }
+
   #navbar #logo img {
     width: 35px;
   }
+
   #hamburgerMenu {
     display: inline-block;
   }
+
   #deskripsi h2 {
     font-size: 25px;
     margin-top: 30px;
   }
+
   #main {
     margin-top: 10px;
   }
+
   #main #containerHome {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
   }
+
   #main #containerHome .intro {
     width: 300px;
     text-align: left;
     margin-right: 0;
     margin-left: 30px;
   }
+
   #main #containerHome .intro p {
     font-size: 16px;
     padding-top: 120px;
   }
+
   #main #containerHome .bckGroundHome img {
     width: 100%;
   }
+
   #main #containerHome .intro h1 {
     font-size: 30px;
   }
+
   #main #containerHome #kuning {
     top: 30px;
     left: 90px;
   }
+
   #main #containerHome #biru {
     top: 55px;
     left: 140px;
   }
+
   #file {
     width: 300px;
     height: 250px;
     margin: auto;
   }
+
   #file #labelFile {
     width: 160px;
     font-size: 15px;
     top: -20px;
     left: 70px;
   }
+
   #file #logoFile {
     top: 25px;
   }
+
   #file #logoFile img {
     width: 150px;
   }
+
   #container {
     flex-direction: column;
     margin-block: 40px;
   }
+
   #containerFile {
     margin: 0px auto;
   }
+
   #buttonKlasifikasi {
     width: 300px;
   }
+
   #containerHasil {
     margin-top: 30px;
   }
+
   #hasil {
     width: 350px;
   }
+
   #hasil p {
     padding: 24px;
   }
+
   .progressbar-text {
     left: 7px;
   }
+
   #headHasil #hasilKlasifikasi,
   #headHasil #penagulangan {
     font-size: 16px;
   }
+
   #hasil table tr th {
     font-size: 14px;
     padding: 10px;
   }
+
   #hasil h2 {
     padding: 20px;
     font-size: 18px;
   }
+
   footer {
     padding: 15px 0;
     margin-top: 4px;
   }
+
   footer p {
     font-size: 14px;
   }
