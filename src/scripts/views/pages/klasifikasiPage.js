@@ -205,7 +205,8 @@ const Klasifikasi = {
       ) {
         kategori = "Sampah Berbahaya";
         penjelasan =
-          "Sampah yang kategori anorganik meliputi bahan-bahan seperti logam, plastik, kaca, dan kertas yang tidak dapat terurai secara alami dan membutuhkan pengolahan khusus.";
+          "Sampah yang kategori sampah berbahaya mencakup bahan-bahan yang dapat membahayakan lingkungan atau kesehatan manusia, seperti baterai, limbah biologis, dan beberapa jenis kaca yang mengandung zat berbahaya.";
+
         color = "#CD000E";
         penagulangan = `<ul>
         <li>Pemisahan di Sumber: Sampah berbahaya seperti kaca, kemasan detergen, atau pembasmi serangga harus dipisahkan secara khusus dalam satu wadah untuk meminimalisasi dampak yang mungkin ditimbulkan</li>
@@ -214,7 +215,8 @@ const Klasifikasi = {
       } else {
         kategori = "Anorganik";
         penjelasan =
-          "Sampah yang kategori sampah berbahaya mencakup bahan-bahan yang dapat membahayakan lingkungan atau kesehatan manusia, seperti baterai, limbah biologis, dan beberapa jenis kaca yang mengandung zat berbahaya.";
+          "Sampah yang kategori anorganik meliputi bahan-bahan seperti logam, plastik, kaca, dan kertas yang tidak dapat terurai secara alami dan membutuhkan pengolahan khusus.";
+
         color = "#ECB500";
         penagulangan = `<ul>
     <li>Pemisahan di Sumber: Memisahkan sampah anorganik dari organik ketika membuang sampah juga sangat penting. Gunakan tempat sampah terpisah atau wadah yang berbeda untuk masing-masing jenis sampah ini.</li>
