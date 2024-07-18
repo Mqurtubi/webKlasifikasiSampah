@@ -14,7 +14,7 @@
     "webpack-merge": "^5.10.0"
   },
   "dependencies": {
-    "@tensorflow/tfjs": "^4.19.0",
+    "@tensorflow/tfjs": "^4.20.0",
     "ldloader": "^3.0.3",
     "loaders.css": "^0.1.2",
     "motion": "^10.17.0",

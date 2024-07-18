@@ -1,4 +1,4 @@
-@media (min-width: 1024px) and (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
 
   #navbar {
     padding: 0 10px;
@@ -218,6 +218,18 @@
   #hasil h2 {
     padding: 20px;
     font-size: 18px;
+  }
+
+  #container-tpa {
+    margin: 15px auto;
+  }
+
+  .container-tpa {
+    width: 80%;
+  }
+
+  .h1-tpa {
+    font-size: 20px;
   }
 
   footer {
