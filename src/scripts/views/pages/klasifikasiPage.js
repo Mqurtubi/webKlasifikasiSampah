@@ -56,7 +56,7 @@ const Klasifikasi = {
       for (let i = 0; i < maxPredictions; i++) if (prediction[i].probability > maxProbability) {
         maxProbability = prediction[i].probability;
         predictedClass = prediction[i].className;
-        if (predictedClass === "biologis") {
+        if (predictedClass === "Biologis") {
           kategori = "Organik";
           color = "#3E9900";
           penjelasan = "Sampah yang kategori organik biasanya terdiri dari sisa makanan dan daun-daunan yang dapat terurai secara alami.";
@@ -65,7 +65,7 @@ const Klasifikasi = {
           <li>Pengomposan: Sampah organik dapat diolah melalui pengomposan. Anda dapat menggunakan komposter untuk mengurai sisa-sisa makanan, daun, dan bahan organik lainnya menjadi kompos yang berguna untuk tanaman.</li>
           <li>Penggunaan sebagai Pupuk Kompos: Sampah organik dapat diolah menjadi pupuk kompos yang berguna untuk tanaman. Hal ini dapat dilakukan dengan memasukkan tanah secukupnya ke wadah yang telah diisi sampah organik, lalu disiram dengan air dan diisi dengan arang.</li>
           </ul>`
-        } else if (predictedClass === "kaca" || predictedClass === "baterai" || predictedClass === "sampah") {
+        } else if (predictedClass === "Kaca" || predictedClass === "Baterai" || predictedClass === "Sampah") {
           kategori = "Berbahaya";
           color = "#CD000E";
           penjelasan = "Sampah yang kategori sampah berbahaya mencakup bahan-bahan yang dapat membahayakan lingkungan atau kesehatan manusia, seperti baterai, limbah biologis, dan beberapa jenis kaca yang mengandung zat berbahaya."
